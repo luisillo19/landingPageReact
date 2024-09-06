@@ -1,0 +1,54 @@
+.navbar__list{
+    display: flex;
+    color: black;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.25rem;
+
+    font-size: 17px;
+    line-height: 30px;
+    transition: all ease-in-out 0.3s;
+    font-weight: lighter;
+}
+
+
+.navbar__list a{
+    line-height: 30px;
+    letter-spacing: .0313rem;
+    font-weight: lighter;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar__list a::after{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 2px;
+    background-image: url('../../../../../public/arrow-down.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.navbar__list-item:last-child a::after {
+    content: none;
+}
+
+.navbar__list a:hover{
+    color: #de2b2c;
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar__list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -0.125rem;
+}

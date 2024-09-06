@@ -1,0 +1,51 @@
+.container__loginnetworks{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    margin-left: .625rem;
+    padding-right: 62px;
+}
+
+.networks-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.625rem;
+    cursor: pointer;
+    height: 100%;
+
+}
+
+.networks-container ul li{
+    display: flex;
+    align-items: flex-end;
+}
+
+.login__link{
+    color: white;
+    font-weight: 450;
+    transition: all ease-in-out 0.3s;
+    letter-spacing: 1px;
+}
+
+.login__link:hover{
+    color: #de2b2c;
+    transition: all ease-in-out 0.3s;
+}
+
+.separador{
+    height: 100%;
+    border: 0.5px solid #3a3544;
+    margin: 0 20px;
+}
+
+.networks__icon:hover{
+    color: #de2b2c;
+    transition: all ease-in-out 0.3s;
+}
+

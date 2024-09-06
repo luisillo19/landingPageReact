@@ -1,0 +1,15 @@
+.header__bottomnav{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    
+}
+
+
+

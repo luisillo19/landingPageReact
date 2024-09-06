@@ -1,0 +1,82 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@import url('./assets/components/Hero/style.css');
+
+:root{
+  --body-background:#f3f3f3;
+  --icon-color:#de2b2c;
+  --title-color:#222222;
+  --title-color-dos: #ffffff;
+  --cards-color:#FEFEFE;
+  --text-color:#9f9f9f;
+  --text-color-dos:#de2b2c;
+  --background-icon-color:#fbe1e0;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  height: 100%;
+  background-color: var(--body-background);
+  font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+  width: 1290px;
+  height: auto;
+  color: white;
+
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top__header{
+  width: 100%;
+  height: 4.375rem;
+  background-color: #241e2f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.875rem;
+  padding-left: .625rem;
+
+  border-radius: 0 0 100px 100px;
+}
+
+.lower__header{
+  width: 100%;
+}
+
+.hero__container{
+  width: 100%;
+  height: 78vh;
+
+
+  background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+    ,url(../public/bruce-mars-xj8qrWvuOEs-unsplash.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom bottom;
+    background-attachment: fixed;
+}
